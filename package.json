@@ -1,0 +1,21 @@
+{
+  "name": "automate-with-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Ultimate-QA": "npx playwright test --project=Ultimate-QA",
+    "Api-Testing": "npx playwright test --project=Api-Testing"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.36.2"
+  },
+  "dependencies": {
+    "jest": "^29.6.2",
+    "mailslurp-client": "^15.17.2",
+    "unique-names-generator": "^4.7.1"
+  }
+}
